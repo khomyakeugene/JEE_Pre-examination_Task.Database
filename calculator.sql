@@ -11,7 +11,7 @@ create table calculation_data (
    protocol_id          INT4                 not null,
    expression           VARCHAR(512)         not null,
    result               VARCHAR(256)         null,
-   microsecs_execution_time INT8                 not null,
+   microsecs_execution_time INT8             null,
    constraint PK_CALCULATION_DATA primary key (calculation_data_id)
 );
 
